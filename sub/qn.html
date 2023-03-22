@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(70,70,70);">
+<meta charset="utf-8">
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+/*Clases*/
+.titulo{
+    overflow: scroll;
+    font-family: 'Source Code Pro',monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(35,35,35);
+    width: 100vw;
+    position: fixed;
+    height: 5.8vh;
+}
+
+.titulo:hover{
+    background-color: rgb(120,120,120);
+    height: 8vh;
+    transition: transform 0.2s ease-in;
+}
+
+.ul {
+    background-color: rgb(35,35,35);
+    height: 20vh;
+}
+
+.logo{
+    height: 20vh;
+    width: auto;
+}
+.texto{
+    font-family: 'Source Code Pro', monospace; padding: 10px 10px;
+    font-size: 2.3vh; 
+    color: rgb(220, 220, 220);
+}
+
+
+.asf{
+    overflow: hidden;
+    height: 3.5vh;
+    background-color: rgb(70,70,70);
+}
+
+.a2d{
+
+    height: 1vh;
+
+}
+
+.tboxindex{
+    height: 93.1vh;
+
+    background-color: rgb(35,35,35);
+}
+.li:hover{height: 6.3vh;}
+.li {float: left;height: 5.8vh;}
+
+
+.bt{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 3vh;
+    color: rgb(220, 220, 220);
+    padding: 0px 2vw;
+    background-color: transparent;
+    border: 0;
+    height: 5.8vh;
+    width: auto;
+}
+
+.bt:hover{
+    font-family: 'Source Code Pro',monospace;
+    background-color: rgb(53,90,133);
+    color: rgb(35,35,35);
+    padding: 0px 3vw;
+    font-size: 5vh;
+    height: 6.3vh;
+  transform: translateY(15%);
+  transition: transform 0.2s ease-in;
+}
+
+.ah{
+    height: 5.8vh;
+}
+
+.contact{
+    position: left fixed;
+    width: 20vw;
+    margin-left: 0vw;
+    align-self: flex-end;
+    font-size: 3vh;
+    background-color: rgb(35,35,35);
+    border-bottom: 0.1vh solid rgb(220, 220, 220);
+    border-top: 0.1vh solid rgb(220, 220, 220);
+    color: transparent;
+}
+
+.ctt{
+    position: left fixed;
+    width: 20vw;
+    margin-left: -15vw;
+    align-self: flex-end;
+    font-size: 3vh;
+    background-color: rgb(35,35,35);
+    border-bottom: 0.1vh solid rgb(220, 220, 220);
+    border-top: 0.1vh solid rgb(220, 220, 220);
+    color: transparent;
+}
+
+.contact:hover{
+    transform: translateX(3vw);
+    transition: transform 0.2s ease-in;
+}
+
+.ctt:hover{
+    transform: translateX(10vw);
+    transition: transform 0.5s ease-in;
+    color: rgb(220, 220, 220);
+}
+
+.tr{
+    width: 10vw;
+    color: transparent;
+    background-color: rgb(53,90,133);
+}
+
+.tr:hover{
+    color: rgb(220, 220, 220);
+}
+
+.trs{
+    width: 3vw;
+    color: rgb(220, 220, 220);
+}
+
+.flyerb{
+    background-color: rgb(35,35,35);
+    align-content: center;
+    width: 27vw;
+    overflow: scroll;
+    height: 81vh;
+    vertical-align: center;
+}
+
+.flyer{
+    width: 25vw;
+    vertical-align: center;
+}
+.flyer:hover{
+    zoom:150%;
+}
+
+.p{
+    color: rgb(220, 220, 220);
+    font-size: 2hv;
+    margin-left: 2vw;
+}
+
+.flyerb::-webkit-scrollbar{width: 2px; height: 0px;}
+
+.di{
+    overflow: hidden;
+    height: 50vh;
+    width: 50vw;
+}
+.txt{
+    color: rgb(220, 220, 220);
+}
+
+
+li a {text-decoration: none;}
+
+body::-webkit-scrollbar {
+  width: 1vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(53,90,133);
+  border-radius: 0.5vw;
+  border: .1vw solid rgb(70,70,70);
+}
+
+html{margin: 0;font-family: 'Source Code Pro',monospace;}
+head{margin: 0;}
+body{margin: 0;}
+footer{margin: 0;}
+ul{margin: 0;}
+li{margin: 0;}
+div{margin: 0;}
+a{margin: 0; color: rgb(220, 220, 220); text-decoration: none;}
+button{margin: 0;}
+
+
+
+.box{
+  padding: 0;
+  width: auto;
+  overflow: scroll;
+  scrollbar-color: rgb(75, 75, 75);
+  scrollbar-width: 0px;
+  scrollbar-highlight-color: rgb(255, 0, 0);
+    height: 29vh;
+}
+
+.box::-webkit-scrollbar{width: 2px; height: 0px;}
+.box::-webkit-scrollbar-track {background: rgb(0, 0, 0);}
+.box::-webkit-scrollbar-thumb {background-color: rgb(53,90,133); border-radius: 1px; border: 0px;}
+.box::-webkit-scrollbar-corner {background-color: rgb(0, 0, 0);}
+
+
+.iframe{
+  padding: 0;
+  width: 30vw;
+  overflow: scroll;
+  scrollbar-color: rgb(75, 75, 75);
+  scrollbar-width: 0px;
+  scrollbar-highlight-color: rgb(255, 0, 0);
+    height: 20vh;
+}
+
+.iframe::-webkit-scrollbar{width: 2px; height: 0px;}
+.iframe::-webkit-scrollbar-track {background: rgb(0, 0, 0);}
+.iframe::-webkit-scrollbar-thumb {background-color: rgb(53,90,133); border-radius: 1px; border: 0px;}
+.iframe::-webkit-scrollbar-corner {background-color: rgb(0, 0, 0);}
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>MYcroconductor - Inicio</title>
+
+    <ul class="titulo">
+        <strong>
+            <li class="li"><a class="ah" style="height: auto;" href="../index.html" title="Inicio"><button class="bt">Inicio</button></a></li>
+            <li class="li"><a class="ah" style="height: auto;" href="pag.html" title="Páginas conociidas"><button class="bt">Otras páginas</button></a></li>
+            <li class="li"><a class="ah" style="height: auto;" href="qn.html" title="¿Quiénes somos?"><button class="bt">Sobre nosotros</button></a></li>
+        </strong>
+    </ul>
+</head>
+
+<body>
+
+    <footer class="asf" style="background-color: rgb(35,35,35);"></footer>
+    <footer class="asf" style="background-color: rgb(35,35,35);"></footer>
+
+    <center>
+        <div class="flyerb">
+            <br><img src="../img/flyer.png" class="flyer">
+        </div>
+    </center>
+
+    <footer style="background-color: rgb(50,50,50); height: auto; width: auto;">
+
+        <div class="box">
+            <p class="p">This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+            <p class="p">Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin’ caught in the rain.)</p>
+            <p class="p">…or something like this:</p>
+            <p class="p">The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p>
+            <p class="p">As a new WordPress user, you should go to <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p><br>
+            <p class="p">Fuente</p>
+            <p class="p"><a href="https://prefecomelchorocampo.edu.mx/2-2" title="Prefeco Melchor Ocampo">Prefeco Melchor Ocampo</a></p>
+       </div>
+
+    </footer>
+
+</body>
+
+<div id="contacto" class="ctt">
+    <table class="contact">
+        <td class="tr"><center>No hay</center></td>
+        <td class="trs"><a href="#contacto"><center><i class="link-icon fa fa-phone" style="color: rgb(220, 220, 220);"></i></center></td></a>
+    </table>
+    <table class="contact">
+        <td class="tr"><a href="#contacto" class="tr"><center>No hay</center></a></td>
+        <td class="trs"><a href="#contacto"><center><i class="link-icon fa fa-twitter" style="color: rgb(220, 220, 220);"></i></center></td></a>
+    </table>
+    <table class="contact">
+        <td class="tr"><a href="#contacto" class="tr"><center>No hay</center></a></td>
+        <td class="trs"><a href="#contacto"><center><i class="link-icon fa fa-facebook" style="color: rgb(220, 220, 220);"></i></center></td></a>
+    </table>
+</div>
+
+</html>
