@@ -94,6 +94,28 @@
   transition: transform 0.2s ease-in;
 }
 
+.bt2{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 5vh;
+    color: rgb(220, 220, 220);
+    padding: 0px 0vw;
+    background-color: transparent;
+    border: 0;
+    height: 10vh;
+    width: 20vw;
+}
+
+.bt2:hover{
+    font-family: 'Source Code Pro',monospace;
+    background-color: rgb(53,90,133);
+    color: rgb(35,35,35);
+    padding: 0px vw;
+    font-size: 5vh;
+    height: 12vh;
+  transform: translateY(15%);
+  transition: transform 0.2s ease-in;
+}
+
 .ah{
     height: 5.8vh;
 }
@@ -223,6 +245,24 @@
     height: 50vh;
     width: 0.1vw;
     background-color: rgb(220, 220, 220);
+}
+
+.separador{
+    height: 0vh;
+    width: 20vw;
+}
+
+.txtds{
+    font-size: 7vh;
+    color: rgb(220, 220, 220);
+}
+
+.imgc{
+    width: 30vw;
+}
+
+.widthc{
+    width: 70vw;
 }
 
 li a {text-decoration: none;}
